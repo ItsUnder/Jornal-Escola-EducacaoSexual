@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css");
+body {
+ font-family: "Playfair", sans-serif;
+}
+html { 
+  background: no-repeat center center fixed; 
+  background-color: #e6e6e6;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.page-title { 
+  margin: 0 0 5px;
+  font-size: 100px;
+  text-align: center;
+  padding: 20px;
+  font-family: "Roboto";
+}
+
+.page-text {
+  position: center;
+  text-align: justify;
+  font-size: 23px;
+  bottom: 50px;
+  margin: 0 0 5px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  left: 500px;
+}
+.container {
+}
+
+.header { 
+  size: 20px;
+  width: 100%;
+  border-bottom: 5px solid #12b1c9;
+}
+
+iframe {
+    display: block;
+    border-style:none;
+    margin: 0 auto;
+    background-color: #777;
+}
+.page-subtitle {
+  font-size: 25px;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-weight: bold;
+  color: black;
+}
+.progress-bar {
+  position: absolute;
+  size: 20px;
+  width: 100%;
+  border-bottom: 5px solid cyan;
+}
