@@ -142,4 +142,9 @@ iframe {
     color: white;
     background-color: #2c2c30;
   }
- 
+  @media only screen and (max-device-width: 480px) {
+    .page-text
+    {
+    font-size:14px;
+    }
+ }
