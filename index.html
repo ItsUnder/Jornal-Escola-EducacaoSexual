@@ -1,31 +1,40 @@
+<!DOCTYPE HTML>
+  
 <body>
-<div class="container">
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
-  <h1 class="page-title">
-    Jornal 106
-  </h1>
-  <div class= "header"> 
-    <div class="progress-bar" id="myBar"></div>
-  <style>
-    div.header { 
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    } 
+  <div class="tema">
+    <button onclick="mudaTema()">Alterar Tema</button>
+  </div>
+  <div class="container">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <h1 class="page-title">
+      Jornal 106
+    </h1>
+    <div class= "header"> 
+      <div class="progress-bar" id="myBar"></div>
+    <style>
+      div.header { 
+      position: fixed;
+      position: -webkit-fixed;
+      top: 0px;
+      } 
+      </style>
+      </div>
+  </div>
+    <div id="root"></div>
+  <overflow-x: hidden></overflow-x:>
+  <style type="text/css">
+    body { margin:0; }
     </style>
-   </div>
-  <div id="root"></div>
-
   <p class= "page-text"> 
  O pedido do Ministério da Defesa para ter acesso aos códigos-fonte das urnas eletrônicas foi recebido por ministros do Tribunal Superior Eleitoral como mais uma tentativa de lançar dúvidas sobre o processo eleitoral. Na avaliação de magistrados ouvidos pela CNN, os militares já poderiam ter realizado a inspeção antes, uma vez que os códigos estavam disponíveis desde outubro do ano passado.
   </p>
  <p class= "page-text"> 
    À CNN, um ministro afirmou que considera um abuso de paciência o envio de tantos ofícios pelo Ministério da Defesa para ressaltar pedidos idênticos. Um outro classificou como desinteresse o fato de o Ministério da Defesa não ter feito a inspeção ao sistema do TSE antes.
       </p>
-  <iframe align="middle" width="620" height="315"
+ <!-- <iframe align="middle" width="620" height="315"
 src="https://www.youtube.com/embed/aaEIecPJC9k">
-</iframe>
+</iframe> -->
  <p class= "page-text"> 
 No site oficial, o ministério abriu uma aba com o título “Atuação das Forças Armadas em apoio ao TSE no aprimoramento da segurança e da transparência do processo eleitoral” em que relaciona os principais ofícios encaminhados neste ano ao Tribunal Superior Eleitoral com perguntas e sugestões.
   </p>
@@ -53,3 +62,4 @@ O debate será transmitido ao vivo pela CNN na TV e por nossas plataformas digit
   </p>
   </div>
   </body>
+  </html>
