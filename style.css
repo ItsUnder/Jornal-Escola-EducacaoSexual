@@ -37,14 +37,13 @@ html {
 .container {
   background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
   padding: 0px;
-
 }
 .header { 
   position: absolute;
   size: 20px;
   width: 100%;
   line-height: 20px;
-  border-bottom: 7px solid grey;
+  border-bottom: 7px solid #1A1D1D;
   background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
   background-size: cover;
   position: fixed;
@@ -60,7 +59,7 @@ iframe {
     background-color: #777;
 }
 .page-subtitle {
-  font-size: 25px;
+  font-size: 20px;
   padding-left: 100px;
   padding-right: 100px;
   font-weight: bold;
@@ -72,7 +71,7 @@ iframe {
   width: 100%;
   line-height: 20px;
   background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
-  border-bottom: 7px solid #12b1c9;
+  border-bottom: 7px solid #499cfe;
 }
 ::-webkit-scrollbar {
   width: 7px;
@@ -110,7 +109,7 @@ iframe {
   }
   .dark .progress-bar { 
     background: linear-gradient(230.65deg, #041832 27.49%, #3468a7 83.19%);
-    border-bottom: 7px solid cyan;
+    border-bottom: 7px solid #499cfe;
 }
   .dark .tema button {
     background: #1c1c1c;
@@ -146,5 +145,6 @@ iframe {
     .page-text
     {
     font-size:14px;
+    text-align: left;
     }
  }
