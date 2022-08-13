@@ -1,11 +1,14 @@
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {scrollBarProgressIndicator()};
 
-function myFunction() {
+function scrollBarProgressIndicator() {
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
   var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
   var scrolled = (winScroll / height) * 120;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
-function mudaTema() {
+function changeThemes() {
   document.body.classList.toggle("dark");
+}
+function redirectHome() {
+  location.replace("https://www.youtube.com/")
 }
