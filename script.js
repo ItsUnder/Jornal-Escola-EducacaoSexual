@@ -10,5 +10,5 @@ function changeThemes() {
   document.body.classList.toggle("dark");
 }
 function redirectHome() {
-  location.replace("https://www.youtube.com/")
+  location.replace("https://under-117.github.io/Jornal-Escola-Home/")
 }
